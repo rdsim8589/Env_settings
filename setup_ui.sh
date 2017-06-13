@@ -11,3 +11,4 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome*.deb
 
 #reminder to install the keybindings to change the key bindings.
+sudo apt-get install compizconfig-settings-manager
