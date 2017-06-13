@@ -1,3 +1,41 @@
+; list the packages you want
+(setq package-list '(auto-complete restclient))
+
+(require 'package)
+
+
+; list the repositories containing them
+(setq package-archives '(("elpa" . "http://tromey.com/elpa/")
+			 ("gnu" . "http://elpa.gnu.org/packages/")
+			 ("marmalade" . "http://marmalade-repo.org/packages/")
+			 ("melpa" . "https://melpa.org/packages/")
+			 ("melpa-stable" . "https://stable.melpa.org/packages/")))
+
+; activate all the packages (in particular autoloads)
+(package-initialize)
+
+; fetch the list of packages available
+(unless package-archive-contents
+  (package-refresh-contents))
+
+; install the missing packages
+(dolist (package package-list)
+  (unless (package-installed-p package)
+        (package-install package)))
+
+
+;; have auto complete start up with emacs
+(require 'auto-complete)
+(global-auto-complete-mode t)
+;; (defun auto-complete-mode-maybe ()
+;;   "No maybe for you. Only AC!"
+;;   (unless (minibufferp (current-buffer))
+;;         (auto-complete-mode 1)))
+
+
+(add-hook 'python-mode-hook
+  (lambda () (setq python-indent-offset 4)))
+
 (setq c-default-style "bsd"
       c-basic-offset 8
       tab-width 8
@@ -26,21 +64,9 @@
 
 
 
-(add-hook 'python-mode-hook
-  (lambda () (setq python-indent-offset 4)))
 
 
-(require 'package)
 
-;; If you want to use latest version
-(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
-
-;; If you want to use last tagged version
-(add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/"))
-(package-initialize)
-
-;; have auto complete start up with emacs
-(global-auto-complete-mode t)
 
 ;; seting color themes
 (put 'upcase-region 'disabled nil)
