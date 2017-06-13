@@ -10,9 +10,8 @@ git config --global user.name "Richard Sim"
 git config credential.helper "cache --timeout=3600"
 
 #setting up emacs config file
-mv .emacs ~/
-#set up the auto complete feature
+cp .emacs ~/
 
 #setting up bash aliases
-mv .bash_aliases ~/
+cp .bash_aliases ~/
 source ~/.bash_aliases
