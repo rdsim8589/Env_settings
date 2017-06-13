@@ -1,7 +1,14 @@
 <h1>The config files for setting up environment</h1>
 <ul>
 	<li>emacs</li>
+	<li>bash</li>
 </ul>
+<h2>emacs packages</h2>
+<ul>
+	<li>auto-complete</li>
+	<li>restclient</li>
+</ul>
+
 
 <h2>key bindings</h2>
 current keys mapped
@@ -19,5 +26,5 @@ run
 <code> ./keybinding_grabber.pl -e ./keys.csv</code>
 
 
-<h3>Sources</h3>
+<h2>Sources</h2>
 <a href="https://askubuntu.com/questions/26056/where-are-gnome-keyboard-shortcuts-stored/217310">saving and loading keybinding</a>
