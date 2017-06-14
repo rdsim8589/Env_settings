@@ -7,7 +7,7 @@ sudo apt-get install -y git
 #setup git config
 git config --global user.email "rdsim8589@gmail.com"
 git config --global user.name "Richard Sim"
-git config credential.helper "cache --timeout=3600"
+git config credential.helper "cache --timeout=36000"
 
 #setting up emacs config file
 cp .emacs ~/
