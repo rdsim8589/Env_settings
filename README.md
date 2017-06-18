@@ -7,6 +7,9 @@
 <ul>
 	<li>auto-complete</li>
 	<li>restclient</li>
+	<li>grandshell-theme</li>
+	<li>go-mode</li>
+	<li>exec-path-from-shell</li>
 </ul>
 
 
