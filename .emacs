@@ -1,5 +1,5 @@
 ;; list the packages you want
-(setq package-list '(auto-complete restclient grandshell-theme))
+(setq package-list '(auto-complete restclient grandshell-theme go-mode exec-path-from-shell))
 
 (require 'package)
 
@@ -14,7 +14,6 @@
 
 
 
-      
 ;; activate all the packages (in particular autoloads)
 (package-initialize)
 
