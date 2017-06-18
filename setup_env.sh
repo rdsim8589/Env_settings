@@ -25,3 +25,6 @@ tar xvf go1.8.3.linux-amd64.tar.gz
 sudo chown -R root:root ./go
 #current path where go is located
 sudo mv go /usr/local
+
+# install Go Doc
+go get golang.org/x/tools/cmd/
