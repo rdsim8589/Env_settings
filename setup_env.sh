@@ -28,3 +28,6 @@ sudo mv go /usr/local
 
 # install Go Doc
 go get golang.org/x/tools/cmd/
+
+#swaps Caps and ctrl
+/usr/bin/setxkbmap -option "ctrl:swapcaps"
