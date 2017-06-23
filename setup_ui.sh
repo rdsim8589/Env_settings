@@ -11,3 +11,5 @@ sudo dpkg -i google-chrome*.deb
 
 #reminder to install the keybindings to change the key bindings.
 sudo apt-get install compizconfig-settings-manager
+#install the keybindings that are in csv format
+./keybinding_grabber.pl -i ./keys.csv
