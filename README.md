@@ -2,6 +2,7 @@
 <ul>
 	<li>emacs</li>
 	<li>bash</li>
+	<li>profile</li>
 </ul>
 <h2>emacs packages</h2>
 <ul>
@@ -11,22 +12,19 @@
 	<li>go-mode</li>
 	<li>exec-path-from-shell</li>
 </ul>
-
-
+<h2>Profile</h2>
+<ul>
+	<li>swap cap and ctrl</li>
+	<li>Path for Go</li>
+</ul>
 <h2>key bindings</h2>
 current keys mapped
 <ul>
 	<li>workstation movement and window shift remapped to j,i,k,l from left, up, down, right respecitively.</li>
+	<li>swaps Cap Lock and Ctrl</li>
 </ul>
 <h3>Compizconfig settings</h3>
 load unity_setting_richard.profile into the Compizconfig
-
-<h3>loading key binding</h3>
-run
-<code> ./keybinding_grabber.pl -i ./keys.csv </code>
-
-<h3>saving key bindings</h3>
-<code> ./keybinding_grabber.pl -e ./keys.csv</code>
 
 
 <h2>Sources</h2>
