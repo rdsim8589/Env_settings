@@ -26,6 +26,11 @@ current keys mapped
 <h3>Compizconfig settings</h3>
 load unity_setting_richard.profile into the Compizconfig
 
+<h3>Enable Brightness Adjusting</h3>
+Enables the keybinding for the brightness on the keyboard
+** reference below is only for integrated intel video cards
+
 
 <h2>Sources</h2>
 <a href="https://askubuntu.com/questions/26056/where-are-gnome-keyboard-shortcuts-stored/217310">saving and loading keybinding</a>
+<a href="https://askubuntu.com/questions/772480/adjust-brightness-16-04">Enable Brightness Adjustment</a>
