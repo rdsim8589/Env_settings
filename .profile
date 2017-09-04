@@ -22,5 +22,5 @@ fi
 PATH="$HOME/bin:$HOME/.local/bin:$PATH"
 
 # Path for Go
-export GOPATH=$HOME/Repository/work
+export GOPATH=$HOME/workspace
 export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
