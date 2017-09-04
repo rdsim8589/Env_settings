@@ -10,6 +10,7 @@ sudo apt-get update
 sudo apt-get install -y emacs vim
 #install byobu
 sudo apt-get install -y byobu
+cp keybindings.tmux ~/.byobu
 
 #install curl
 sudo apt-get install -y curl
@@ -37,6 +38,9 @@ sudo cp -R go /usr/local/go
 
 # mv .profile into env
 cp .profile ~/.profile
+
+#install silversearcher
+sudo apt-get install -y silversearcher-ag
 
 #clean up
 sudo rm -fr go
