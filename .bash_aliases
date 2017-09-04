@@ -20,12 +20,7 @@ function parse_git_branch {
 }
 export PS1="\[\033[1;30m\]\u \[\033[0;37m\] \[\033[1;32m\]\w\[\033[0m\]\n\[\033[1;31m\]\$(parse_git_branch) \[\033[0m\]\$ "
 
-#entering webserver
-web_01="54.209.54.84"
-web_02="54.243.1.173"
-lb_01="52.55.231.41"
-alias plant_server="ssh ubuntu@52.90.202.94"
-alias rb_plant="ssh rpi3b1@67.188.8.188 -p22402"
-
+#moving
+alias rds="cd ~/workspace/src/github.com/rdsim8589"
 #emacs
 alias emacs="emacs -nw"
