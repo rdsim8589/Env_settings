@@ -1,8 +1,10 @@
 #!/bin/bash
-#install slack
-sudo apt-add-repository -y ppa:rael-gc/scudcloud
-echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | sudo debconf-set-selections
+sudo add-apt-repository ppa:webupd8team/atom
+
 sudo apt-get update
+
+#install atom
+sudo apt-get install atom
 
 #install chrome
 sudo apt-get install libxss1 libappindicator1 libindicator7
@@ -13,3 +15,11 @@ sudo dpkg -i google-chrome*.deb
 sudo apt-get install compizconfig-settings-manager
 #install the keybindings that are in csv format
 ./keybinding_grabber.pl -i ./keys.csv
+
+#install slack
+wget https://packagecloud.io/slacktechnologies/slack/packages/debian/jessie/slack-desktop_2.7.1_amd64.deb
+dpkg -i slack-desktop-2.7.1_amd64.deb
+
+#clean up
+rm google-chrome*
+rm slack-desktop-2.7.1_amd64.deb
