@@ -32,5 +32,6 @@ Enables the keybinding for the brightness on the keyboard
 
 
 <h2>Sources</h2>
+<a href="https://askubuntu.com/questions/239209/no-sound-from-bluetooth-headset-but-its-detected>resource install proper bluetooth config for ubuntu 16.04 </a>
 <a href="https://askubuntu.com/questions/26056/where-are-gnome-keyboard-shortcuts-stored/217310">saving and loading keybinding</a>
 <a href="https://askubuntu.com/questions/772480/adjust-brightness-16-04">Enable Brightness Adjustment</a>
